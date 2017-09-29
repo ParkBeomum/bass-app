@@ -15,7 +15,7 @@ import {DataTableModule} from "angular2-datatable";
 //        PageHeaderModule
     ],
     declarations: [
-      BoardComponent, 
+      BoardComponent,
       CarouselComponent
     ]
 })

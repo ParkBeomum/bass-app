@@ -6,8 +6,9 @@
 
 <nav class="nav">
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a [routerLink]="['/mainboard']" [routerLinkActive]="['router-link-active']">Home</a></li>
+        <li><a [routerLink]="['/board']" [routerLinkActive]="['router-link-active']">About</a></li>
+        <li><a [routerLink]="['/test-board']" [routerLinkActive]="['router-link-active']">테스트게시판</a></li>
         <li class="nav-submenu"><a href="#">배스입문</a>
             <ul>
                 <li><a href="#">초보질문방</a></li>

@@ -11,7 +11,7 @@ export class NavComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { 
 
   }
   ngAfterViewInit(): void {
